@@ -1,0 +1,24 @@
+﻿@model ProductListModel
+<div class="row">
+    <div class="col-md-3">
+        <ul class="list-group">
+            <li class="list-group-item">Kıyafeet</li>
+            <li class="list-group-item">Aksesuar</li>
+            <li class="list-group-item">Ayakkkabı</li>
+        </ul>
+    </div>
+    <div class="col-md-9">
+
+        <div class="row ">
+            @foreach (var product in Model.Products)
+            {
+
+                <partial name="_product" for="@product" />
+            }
+        </div>
+    </div>
+</div>
+
+
+
+
