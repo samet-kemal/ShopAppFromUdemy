@@ -8,6 +8,8 @@ namespace ShopApp.Bussiness.Abstarct
     public interface IProductService
     {
         Product GetById(int Id);
+        Product GetProductDetails(int id);
+
         List<Product> GetAll();
         List<Product> GetPopularProducts();
         void Create(Product entity);

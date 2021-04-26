@@ -26,7 +26,7 @@ namespace ShopApp.DataAccess.Concrete.Memory
                 new Product(){Id=1,Name="T-Shirt",ImageUrl="V-YakaT-Shirt.jpg",Price=30},
                 new Product(){Id=2,Name="Bot",ImageUrl="Bot.jpg",Price=500},
                 new Product(){Id=3,Name="Saat",ImageUrl="Saat.jpg",Price=30},
-                new Product(){Id=4,Name="Kot",ImageUrl="slider2.jpg.jpg",Price=80},
+                new Product(){Id=4,Name="Kot",ImageUrl="Kot.jpg",Price=80},
                 new Product(){Id=5,Name="Hırka",ImageUrl="slider1.jpg",Price=50},
                 new Product(){Id=6,Name="T-Shirts",ImageUrl="slider3.jpg",Price=20},
                 new Product(){Id=7,Name="Ceket",ImageUrl="Ceket.jpg",Price=300},
@@ -46,6 +46,16 @@ namespace ShopApp.DataAccess.Concrete.Memory
         }
 
         public List<Product> GetPopularProducts()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Product> GetPopularProducts(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Product GetProductDetails(int id)
         {
             throw new NotImplementedException();
         }
