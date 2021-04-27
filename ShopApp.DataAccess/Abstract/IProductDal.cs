@@ -9,8 +9,8 @@ namespace ShopApp.DataAccess.Abstract
 {
    public interface IProductDal:IRepository<Product>
     {
-        List<Product> GetPopularProducts(int id);
+      //  List<Product> GetPopularProducts(int id);
         Product GetProductDetails(int id);
-        List<Product> GetPopularProducts();
+        List<Product> GetProductsByCategory(string category);
     }
 }

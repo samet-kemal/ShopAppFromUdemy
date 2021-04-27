@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Concrete\Memory\" />
     <Folder Include="Concrete\MySql\" />
     <Folder Include="Concrete\Oracle\" />
   </ItemGroup>

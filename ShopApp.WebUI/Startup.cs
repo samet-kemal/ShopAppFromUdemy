@@ -8,7 +8,6 @@ using ShopApp.Bussiness.Abstarct;
 using ShopApp.Bussiness.Concrete;
 using ShopApp.DataAccess.Abstract;
 using ShopApp.DataAccess.Concrete.EfCore;
-using ShopApp.DataAccess.Concrete.Memory;
 using ShopApp.WebUI.MiddleWares;
 using System;
 using System.Collections.Generic;
@@ -30,7 +29,9 @@ namespace ShopApp.WebUI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IProductDal, EfCoreProductDal>();
+            services.AddScoped<ICategoryDal, EfCoreCategoryDal>();
             services.AddScoped<IProductService, ProductManager>();
+            services.AddScoped<ICategoryService, CategoryManager>();
             services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0).AddMvcOptions(options => options.EnableEndpointRouting = false);
            // services.AddRazorPages().AddMvcOptions(options => options.EnableEndpointRouting = false);
         }
@@ -53,21 +54,35 @@ namespace ShopApp.WebUI
             app.UseStaticFiles();
             app.CustomStaticFiles();
             app.UseHttpsRedirection();
-            app.UseMvcWithDefaultRoute();
-            app.UseRouting();
-
             app.UseAuthorization();
-
-            app.UseEndpoints(endpoints =>
+            app.UseMvc(routes =>
             {
-                endpoints.MapRazorPages();
-                app.UseMvc(routes =>
-                {
-                    routes.MapRoute(
-                        name: "default",
-                        template: "{controller=Home}/{action=Index}/{id?}");
-                });
+                routes.MapRoute(
+                    name: "products",
+                    template: "products/{category?}",
+                    defaults :new {controller = "Shop",action="List"}
+                    );
             });
+
+
+
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Home}/{action=Index}/{id?}");
+            });
+
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    endpoints.MapRazorPages();
+            //    app.UseMvc(routes =>
+            //    {
+            //        routes.MapRoute(
+            //            name: "default",
+            //            template: "{controller=Home}/{action=Index}/{id?}");
+            //    });
+            //});
         }
     }
 }

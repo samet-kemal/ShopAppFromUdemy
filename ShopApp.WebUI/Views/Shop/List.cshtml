@@ -1,11 +1,7 @@
 ﻿@model ProductListModel
 <div class="row">
     <div class="col-md-3">
-        <ul class="list-group">
-            <li class="list-group-item">Kıyafeet</li>
-            <li class="list-group-item">Aksesuar</li>
-            <li class="list-group-item">Ayakkkabı</li>
-        </ul>
+        @await Component.InvokeAsync("CategoryList")
     </div>
     <div class="col-md-9">
 
