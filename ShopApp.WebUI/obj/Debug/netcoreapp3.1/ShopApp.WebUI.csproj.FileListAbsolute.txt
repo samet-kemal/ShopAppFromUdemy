@@ -163,3 +163,4 @@ C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopA
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopApp.WebUI.pdb
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopApp.WebUI.genruntimeconfig.cache
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CategoryList\Default.cshtml.g.cs
+C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateProduct.cshtml.g.cs

@@ -16,6 +16,6 @@ namespace ShopApp.Bussiness.Abstarct
         void Delete(Product entity);
 
         void Update(Product entity);
-
+        int GetCountByCategory(string category);
     }
 }
