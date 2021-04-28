@@ -30,7 +30,7 @@ namespace ShopApp.DataAccess.Concrete.EfCore
             }
         }
 
-        public List<Product> GetProductsByCategory(string category)
+        public List<Product> GetProductsByCategory(string category, int page,int pageSize)
         {
             using (var context = new ShopContext())
             {
@@ -45,7 +45,7 @@ namespace ShopApp.DataAccess.Concrete.EfCore
 
                    
                 }
-                return products.ToList();
+                return products.Skip((page-1)*pageSize).Take(pageSize).ToList();
             }
         }
 

@@ -35,11 +35,13 @@ namespace ShopApp.WebUI.Controllers
                 Categories = product.ProductCategories.Select(i => i.Category).ToList()
             }) ;
         }
-        public IActionResult List(string category)
+        
+        public IActionResult List(string category,int page=1)
         {
+            const int pageSize = 3;
             return View(new ProductListModel()
             {
-                Products = _productService.GetProductsByCategory(category)
+                Products = _productService.GetProductsByCategory(category,page,pageSize)
             });
         }
     }

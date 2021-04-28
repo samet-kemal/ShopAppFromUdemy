@@ -141,7 +141,6 @@ C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopA
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopApp.WebUI.TagHelpers.output.cache
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopApp.WebUI.RazorCoreGenerate.cache
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
-C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
