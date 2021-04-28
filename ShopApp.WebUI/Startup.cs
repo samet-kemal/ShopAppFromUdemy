@@ -56,6 +56,19 @@ namespace ShopApp.WebUI
             app.UseAuthorization();
             app.UseMvc(routes =>
             {
+                   routes.MapRoute(
+                    name: "adminProducts",
+                    template: "admin/products",
+                    defaults :new {controller = "Admin",action="Index"}
+                    );
+
+                   routes.MapRoute(
+                    name: "adminProduct",
+                    template: "admin/products/{id?}",
+                    defaults :new {controller = "Admin",action="Edit"}
+                    );
+
+
                 routes.MapRoute(
                     name: "products",
                     template: "products/{category?}",
