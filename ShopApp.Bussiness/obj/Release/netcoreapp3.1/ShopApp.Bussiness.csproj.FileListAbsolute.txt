@@ -1,0 +1,14 @@
+C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\bin\Release\netcoreapp3.1\ShopApp.Bussiness.deps.json
+C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\bin\Release\netcoreapp3.1\ShopApp.Bussiness.dll
+C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\bin\Release\netcoreapp3.1\ShopApp.Bussiness.pdb
+C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\bin\Release\netcoreapp3.1\ShopApp.DataAccess.dll
+C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\bin\Release\netcoreapp3.1\ShopApp.Entities.dll
+C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\bin\Release\netcoreapp3.1\ShopApp.DataAccess.pdb
+C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\bin\Release\netcoreapp3.1\ShopApp.Entities.pdb
+C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\obj\Release\netcoreapp3.1\ShopApp.Bussiness.csprojAssemblyReference.cache
+C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\obj\Release\netcoreapp3.1\ShopApp.Bussiness.AssemblyInfoInputs.cache
+C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\obj\Release\netcoreapp3.1\ShopApp.Bussiness.AssemblyInfo.cs
+C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\obj\Release\netcoreapp3.1\ShopApp.Bussiness.csproj.CoreCompileInputs.cache
+C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\obj\Release\netcoreapp3.1\ShopApp.Bussiness.csproj.CopyComplete
+C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\obj\Release\netcoreapp3.1\ShopApp.Bussiness.dll
+C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\obj\Release\netcoreapp3.1\ShopApp.Bussiness.pdb
