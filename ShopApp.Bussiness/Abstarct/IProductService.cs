@@ -8,6 +8,8 @@ namespace ShopApp.Bussiness.Abstarct
     public interface IProductService
     {
         Product GetById(int Id);
+        Product GetByIdWithCategories(int id);
+
         Product GetProductDetails(int id);
 
         List<Product> GetAll();
@@ -17,5 +19,6 @@ namespace ShopApp.Bussiness.Abstarct
 
         void Update(Product entity);
         int GetCountByCategory(string category);
+        void Update(Product entity, int[] categoryIds);
     }
 }

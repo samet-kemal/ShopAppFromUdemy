@@ -36,6 +36,11 @@ namespace ShopApp.Bussiness.Concrete
             return _productDal.GetById(Id);
         }
 
+        public Product GetByIdWithCategories(int id)
+        {
+            return _productDal.GetByIdWithCategoriesid(id);
+        }
+
         public int GetCountByCategory(string category)
         {
             return _productDal.GetCountByCategory(category);
@@ -54,6 +59,11 @@ namespace ShopApp.Bussiness.Concrete
         public void Update(Product entity)
         {
             _productDal.Update(entity);
+        }
+
+        public void Update(Product entity, int[] categoryIds)
+        {
+            _productDal.Update(entity, categoryIds);
         }
     }
 }

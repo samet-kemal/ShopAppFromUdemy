@@ -52,7 +52,7 @@ namespace ShopApp.WebUI.Controllers
             {
                 return NotFound();
             }
-            var entity = _productService.GetById((int)id);
+            var entity = _productService.GetByIdWithCategories((int)id);
 
 
             if (entity==null)
@@ -65,12 +65,14 @@ namespace ShopApp.WebUI.Controllers
                 Name = entity.Name,
                 Price = entity.Price,
                 Description = entity.Description,
-                ImageUrl = entity.ImageUrl
+                ImageUrl = entity.ImageUrl,
+                SelectedCategories = entity.ProductCategories.Select(i=>i.Category).ToList()
             };
+            ViewBag.Categories = _categoryService.GetAll();
             return View(model);
         }
         [HttpPost]
-        public IActionResult EditProduct(ProductModel model)
+        public IActionResult EditProduct(ProductModel model,int[] categoryIds)
         {
             var entity = _productService.GetById(model.Id);
             if (entity==null)
@@ -83,7 +85,7 @@ namespace ShopApp.WebUI.Controllers
             entity.Price = model.Price;
 
 
-            _productService.Update(entity);
+            _productService.Update(entity,categoryIds);
             return RedirectToAction("ProductList");
         }
         [HttpPost]
