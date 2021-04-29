@@ -29,22 +29,34 @@ namespace ShopApp.WebUI.Controllers
         [HttpGet]
         public IActionResult CreateProduct()
         {
-            return View();
+            return View(new ProductModel());
         }
 
         [HttpPost]
         public IActionResult CreateProduct(ProductModel model)
         {
-            var entity = new Product()
+            if (ModelState.IsValid)
             {
+                var entity = new Product()
+                  {
                 Name=model.Name,
                 Price=model.Price,
                 Description=model.Description,
                 ImageUrl=model.ImageUrl
-            };
-            _productService.Create(entity);
+                 };
 
-            return RedirectToAction("ProductList");
+                if (_productService.Create(entity))
+                {
+                   return RedirectToAction("ProductList");
+
+                }
+                ViewBag.ErrorMessage = _productService.ErrorMessage;
+                return View(model);
+           
+
+            }
+
+            return View(model);
         }
         public IActionResult EditProduct(int? id)
         {
@@ -63,7 +75,7 @@ namespace ShopApp.WebUI.Controllers
             {
                 Id = entity.Id,
                 Name = entity.Name,
-                Price = entity.Price,
+                Price = (decimal)entity.Price,
                 Description = entity.Description,
                 ImageUrl = entity.ImageUrl,
                 SelectedCategories = entity.ProductCategories.Select(i=>i.Category).ToList()
