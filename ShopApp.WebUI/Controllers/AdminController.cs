@@ -125,18 +125,19 @@ namespace ShopApp.WebUI.Controllers
         [HttpGet]
         public IActionResult EditCategory(int id)
         {
-            var entity = _categoryService.GetById(id);
+            var entity = _categoryService.GetByIdWithProducts(id);
 
             return View(new CategoryModel()
-            { 
-                Id=entity.Id,
-                Name=entity.Name
-            });
+            {
+                Id = entity.Id,
+                Name = entity.Name,
+                Products = entity.ProductCategories.Select(p => p.Product).ToList()
+            }) ;
         }
         [HttpPost]
         public IActionResult EditCategory(CategoryModel model)
         {
-            var entity = _categoryService.GetById(model.Id);
+            var entity = _categoryService.GetByIdWithProducts(model.Id);
             if (entity == null)
             {
                 return NotFound();
@@ -154,6 +155,12 @@ namespace ShopApp.WebUI.Controllers
                 _categoryService.Delete(entity);
             }
             return RedirectToAction("CategoryList");
+        }
+        [HttpPost]
+        public IActionResult DeleteFromCategory(int categoryId,int productId)
+        {
+            _categoryService.DeleteFromCategory(categoryId, productId);
+            return Redirect("/admin/editcategory/"+categoryId);
         }
     }
 }
