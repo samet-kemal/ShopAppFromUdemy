@@ -1,4 +1,6 @@
 C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\bin\Debug\netcoreapp3.1\ShopApp.Bussiness.deps.json
+C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\bin\Debug\netcoreapp3.1\ShopApp.Bussiness.runtimeconfig.json
+C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\bin\Debug\netcoreapp3.1\ShopApp.Bussiness.runtimeconfig.dev.json
 C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\bin\Debug\netcoreapp3.1\ShopApp.Bussiness.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\bin\Debug\netcoreapp3.1\ShopApp.Bussiness.pdb
 C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\bin\Debug\netcoreapp3.1\ShopApp.DataAccess.dll
@@ -12,3 +14,4 @@ C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\obj\Debug\netcoreapp3.1\S
 C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\obj\Debug\netcoreapp3.1\ShopApp.Bussiness.csproj.CopyComplete
 C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\obj\Debug\netcoreapp3.1\ShopApp.Bussiness.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\obj\Debug\netcoreapp3.1\ShopApp.Bussiness.pdb
+C:\Users\Casper\source\repos\ShopApp\ShopApp.Bussiness\obj\Debug\netcoreapp3.1\ShopApp.Bussiness.genruntimeconfig.cache

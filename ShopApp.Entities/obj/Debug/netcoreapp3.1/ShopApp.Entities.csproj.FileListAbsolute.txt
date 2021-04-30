@@ -1,4 +1,6 @@
 C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\bin\Debug\netcoreapp3.1\ShopApp.Entities.deps.json
+C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\bin\Debug\netcoreapp3.1\ShopApp.Entities.runtimeconfig.json
+C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\bin\Debug\netcoreapp3.1\ShopApp.Entities.runtimeconfig.dev.json
 C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\bin\Debug\netcoreapp3.1\ShopApp.Entities.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\bin\Debug\netcoreapp3.1\ShopApp.Entities.pdb
 C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.AssemblyInfoInputs.cache
@@ -6,4 +8,4 @@ C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\obj\Debug\netcoreapp3.1\Sh
 C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.csproj.CoreCompileInputs.cache
 C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.pdb
-C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.csprojAssemblyReference.cache
+C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.genruntimeconfig.cache
