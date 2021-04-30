@@ -6,10 +6,11 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "bootstrap": "^4.6.0",
+    "ckeditor5-custom-build-inline-full": "24.0.11",
     "jquery": "^3.6.0",
-    "save": "^2.4.0",
     "jquery-validation": "1.19.3",
     "jquery-validation-unobtrusive": "3.2.12",
-    "ckeditor4": "4.16.0"
+    "ckeditor5": "27.1.0",
+    "save": "^2.4.0"
   }
 }
