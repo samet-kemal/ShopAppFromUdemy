@@ -9,4 +9,3 @@ C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\obj\Debug\netcoreapp3.1\Sh
 C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.pdb
 C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.genruntimeconfig.cache
-C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.csprojAssemblyReference.cache
