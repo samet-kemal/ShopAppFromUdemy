@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ShopApp.Bussiness.Abstarct;
 using ShopApp.Entities;
@@ -11,6 +12,7 @@ using System.Threading.Tasks;
 
 namespace ShopApp.WebUI.Controllers
 {
+    [Authorize]
     public class AdminController : Controller
     {
         private IProductService _productService;
