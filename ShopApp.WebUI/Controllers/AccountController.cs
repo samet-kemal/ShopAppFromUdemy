@@ -28,7 +28,6 @@ namespace ShopApp.WebUI.Controllers
         {
             if (!ModelState.IsValid)
             {
-                ViewBag().ErrorMesage = "Bir Hata Oldu";
                 return View(model);
 
             }
@@ -51,5 +50,44 @@ namespace ShopApp.WebUI.Controllers
             ModelState.AddModelError("","Bilinmeyen Bir Hata Oluştu Lütfen YEniden Deneyiniz");
             return View(model);
         }
+
+        /*---------------------------LOG-IN------------------------------------------------------------------------------------------*/
+
+        public IActionResult Login(string ReturnUrl=null)
+        {
+            return View(new LoginModel{ 
+                ReturnUrl = ReturnUrl
+            });
+        }
+        [HttpPost]
+        public async Task<IActionResult> Login (LoginModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+            var user = await _userManager.FindByEmailAsync(model.Email);
+            if (user ==null)
+            {
+                ModelState.AddModelError("", "Bu Email ile eşleşen Bir Hesap Bulunmuyor!");
+                return View(model);
+            }
+            var result = await _signInManager.PasswordSignInAsync(user, model.Password, false ,false);
+            if (result.Succeeded)
+            {
+                return Redirect(model.ReturnUrl??"~/");
+            }
+            ModelState.AddModelError("", "Girilen Mail veya Paralo Bilgisi Yanlış");
+
+            return View();
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return Redirect("~/");
+        }
+
+
     }
 }

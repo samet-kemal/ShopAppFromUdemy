@@ -178,3 +178,4 @@ C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\netcoreapp3.1\tr\Mi
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs

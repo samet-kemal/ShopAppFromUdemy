@@ -66,8 +66,8 @@ namespace ShopApp.WebUI
                 options.LoginPath = "/account/login";
                 options.LogoutPath = "/account/logout";
                 options.AccessDeniedPath = "/account/accessdenied";
-                options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
-                options.SlidingExpiration = true;
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(1);
+                options.SlidingExpiration = false;
                 options.Cookie = new CookieBuilder
                 {
                     HttpOnly = true,
