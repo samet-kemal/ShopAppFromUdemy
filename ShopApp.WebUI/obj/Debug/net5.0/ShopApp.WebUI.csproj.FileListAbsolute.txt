@@ -191,3 +191,4 @@ C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\RazorLight.d
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Account\ForgotPassword.cshtml.g.cs
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Account\ResetPassword.cshtml.g.cs
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_resultMessage.cshtml.g.cs
+C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Account\Accessdenied.cshtml.g.cs
