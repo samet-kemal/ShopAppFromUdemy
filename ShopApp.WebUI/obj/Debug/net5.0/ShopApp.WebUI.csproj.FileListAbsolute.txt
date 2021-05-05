@@ -13,6 +13,9 @@ C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\ShopApp.WebU
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\ShopApp.WebUI.Views.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\ShopApp.WebUI.Views.pdb
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\FluentEmail.Core.dll
+C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\FluentEmail.Razor.dll
+C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\FluentEmail.Smtp.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Humanizer.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Mailjet.Client.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
@@ -20,7 +23,9 @@ C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.As
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
@@ -33,6 +38,7 @@ C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.En
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
@@ -51,6 +57,7 @@ C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.Vi
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\RazorLight.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\System.Composition.AttributedModel.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\System.Composition.Convention.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\System.Composition.Hosting.dll
@@ -123,6 +130,8 @@ C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\runtimes\win
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\ShopApp.Bussiness.dll
@@ -152,9 +161,12 @@ C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Pages\
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Account\Accessdenied.cshtml.g.cs
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Account\ConfirmEmail.cshtml.g.cs
+C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Account\ForgotPassword.cshtml.g.cs
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Account\ResetPassword.cshtml.g.cs
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Admin\CategoryList.cshtml.g.cs
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Admin\CreateCategory.cshtml.g.cs
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Admin\CreateProduct.cshtml.g.cs
@@ -166,6 +178,7 @@ C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_Layaout.cshtml.g.cs
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_navbar.cshtml.g.cs
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_product.cshtml.g.cs
+C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_resultMessage.cshtml.g.cs
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_slider.cshtml.g.cs
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Shop\Details.cshtml.g.cs
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Shop\List.cshtml.g.cs
@@ -179,16 +192,3 @@ C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\ShopApp.WebU
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\ref\ShopApp.WebUI.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\ShopApp.WebUI.pdb
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\ShopApp.WebUI.genruntimeconfig.cache
-C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\FluentEmail.Core.dll
-C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\FluentEmail.Smtp.dll
-C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\FluentEmail.Razor.dll
-C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
-C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\RazorLight.dll
-C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Account\ForgotPassword.cshtml.g.cs
-C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Account\ResetPassword.cshtml.g.cs
-C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_resultMessage.cshtml.g.cs
-C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Account\Accessdenied.cshtml.g.cs
