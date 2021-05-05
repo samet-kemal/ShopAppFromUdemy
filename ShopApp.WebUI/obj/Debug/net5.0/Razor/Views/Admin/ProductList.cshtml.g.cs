@@ -26,8 +26,15 @@ using ShopApp.WebUI.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\Views\_ViewImports.cshtml"
+using ShopApp.WebUI.Extensions;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5302cac18faf0bca21aea2a5f42c28ab11b2f4cd", @"/Views/Admin/ProductList.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"248f701390d050047baaaab92a56be5eee54b908", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"76a02ef85469c665d470b6b2c5c6db960f644c83", @"/Views/_ViewImports.cshtml")]
     public class Views_Admin_ProductList : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ProductListModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("width", new global::Microsoft.AspNetCore.Html.HtmlString("80"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -106,7 +113,7 @@ using ShopApp.WebUI.Models;
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n                <td>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5302cac18faf0bca21aea2a5f42c28ab11b2f4cd6162", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5302cac18faf0bca21aea2a5f42c28ab11b2f4cd6352", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -157,7 +164,7 @@ WriteAttributeValue("", 885, item.Id, 885, 8, false);
 #nullable disable
             EndWriteAttribute();
             WriteLiteral(">Edit</a>\r\n\r\n                   ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5302cac18faf0bca21aea2a5f42c28ab11b2f4cd8816", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5302cac18faf0bca21aea2a5f42c28ab11b2f4cd9006", async() => {
                 WriteLiteral("\r\n                       <input type=\"hidden\" name=\"productId\"");
                 BeginWriteAttribute("value", " value=\"", 1060, "\"", 1076, 1);
 #nullable restore

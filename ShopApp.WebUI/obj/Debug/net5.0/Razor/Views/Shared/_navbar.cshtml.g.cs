@@ -26,8 +26,15 @@ using ShopApp.WebUI.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\Views\_ViewImports.cshtml"
+using ShopApp.WebUI.Extensions;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5508ad7f3236d97573459e7ea3e5387b3de56807", @"/Views/Shared/_navbar.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"248f701390d050047baaaab92a56be5eee54b908", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"76a02ef85469c665d470b6b2c5c6db960f644c83", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__navbar : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Home", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -72,7 +79,7 @@ using ShopApp.WebUI.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<nav class=\"navbar navbar-expand-lg navbar-dark bg-primary fixed-top\">\r\n    <div class=\"container\">\r\n        <a class=\"navbar-brand\" href=\"/\">Shopping</a>\r\n        <ul class=\"navbar-nav mr-auto\">\r\n            <li class=\"nav-item\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5508ad7f3236d97573459e7ea3e5387b3de568078658", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5508ad7f3236d97573459e7ea3e5387b3de568078848", async() => {
                 WriteLiteral("Home");
             }
             );
@@ -91,7 +98,7 @@ using ShopApp.WebUI.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n            </li>\r\n            <li class=\"nav-item\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5508ad7f3236d97573459e7ea3e5387b3de5680710176", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5508ad7f3236d97573459e7ea3e5387b3de5680710366", async() => {
                 WriteLiteral("Products");
             }
             );
@@ -126,7 +133,7 @@ using ShopApp.WebUI.Models;
                 </li>
                 <li class=""nav-item"">
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5508ad7f3236d97573459e7ea3e5387b3de5680712218", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5508ad7f3236d97573459e7ea3e5387b3de5680712408", async() => {
                 WriteLiteral("Add Product");
             }
             );
@@ -145,7 +152,7 @@ using ShopApp.WebUI.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                </li>\r\n                <li class=\"nav-item\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5508ad7f3236d97573459e7ea3e5387b3de5680713756", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5508ad7f3236d97573459e7ea3e5387b3de5680713946", async() => {
                 WriteLiteral("Admin Products");
             }
             );
@@ -164,7 +171,7 @@ using ShopApp.WebUI.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                </li>\r\n                <li class=\"nav-item\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5508ad7f3236d97573459e7ea3e5387b3de5680715297", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5508ad7f3236d97573459e7ea3e5387b3de5680715487", async() => {
                 WriteLiteral("Add Category");
             }
             );
@@ -183,7 +190,7 @@ using ShopApp.WebUI.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                </li>\r\n                <li class=\"nav-item\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5508ad7f3236d97573459e7ea3e5387b3de5680716838", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5508ad7f3236d97573459e7ea3e5387b3de5680717028", async() => {
                 WriteLiteral("Admin Categories");
             }
             );
@@ -219,7 +226,7 @@ using ShopApp.WebUI.Models;
 #line hidden
 #nullable disable
             WriteLiteral("                <li class=\"nav-item\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5508ad7f3236d97573459e7ea3e5387b3de5680718907", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5508ad7f3236d97573459e7ea3e5387b3de5680719097", async() => {
 #nullable restore
 #line 37 "C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\Views\Shared\_navbar.cshtml"
                                                                                  Write(User.Identity.Name);
@@ -244,7 +251,7 @@ using ShopApp.WebUI.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                </li>\r\n                <li class=\"nav-item\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5508ad7f3236d97573459e7ea3e5387b3de5680720672", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5508ad7f3236d97573459e7ea3e5387b3de5680720862", async() => {
                 WriteLiteral("Logout");
             }
             );
@@ -273,7 +280,7 @@ using ShopApp.WebUI.Models;
 #line hidden
 #nullable disable
             WriteLiteral("                <li class=\"nav-item\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5508ad7f3236d97573459e7ea3e5387b3de5680722448", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5508ad7f3236d97573459e7ea3e5387b3de5680722638", async() => {
                 WriteLiteral("Login");
             }
             );
@@ -292,7 +299,7 @@ using ShopApp.WebUI.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                </li>\r\n                <li class=\"nav-item\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5508ad7f3236d97573459e7ea3e5387b3de5680723984", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5508ad7f3236d97573459e7ea3e5387b3de5680724174", async() => {
                 WriteLiteral("Register");
             }
             );
