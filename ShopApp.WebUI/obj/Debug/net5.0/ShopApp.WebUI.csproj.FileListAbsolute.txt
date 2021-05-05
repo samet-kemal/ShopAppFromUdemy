@@ -188,3 +188,5 @@ C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\FluentEmail.
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\bin\Debug\net5.0\RazorLight.dll
+C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Account\ForgotPassword.cshtml.g.cs
+C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Account\ResetPassword.cshtml.g.cs
