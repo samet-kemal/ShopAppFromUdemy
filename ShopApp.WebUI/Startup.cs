@@ -87,11 +87,11 @@ namespace ShopApp.WebUI
             services.AddScoped<ICartService, CartManager>();
             services.AddTransient<IEmailSender, EmailSender>();
             services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0)
-                     .AddMvcOptions(options=>options.EnableEndpointRouting=false );
+                     .AddMvcOptions(options => options.EnableEndpointRouting = false);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env,UserManager<ApplicationUser> userManager,RoleManager<IdentityRole> roleManager)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
         {
             if (env.IsDevelopment())
             {
@@ -133,6 +133,11 @@ namespace ShopApp.WebUI
                  defaults: new { controller = "Admin", action = "EditProduct" }
                  );
 
+                routes.MapRoute(
+                  name: "cart",
+                  template: "cart",
+                  defaults: new { controller = "Cart", action = "Index" }
+                   );
 
                 routes.MapRoute(
                     name: "products",
@@ -141,7 +146,7 @@ namespace ShopApp.WebUI
                     );
             });
 
-            SeedIdentity.Seed(userManager,roleManager,Configuration).Wait();
+            SeedIdentity.Seed(userManager, roleManager, Configuration).Wait();
         }
     }
 }
