@@ -25,7 +25,7 @@ namespace ShopApp.DataAccess.Concrete.EfCore
             {
                 return context
                     .Carts
-                    .Include(i => i.CartItems)
+                    .Include(i => i.CartItemss)
                     .ThenInclude(i => i.Product)
                     .FirstOrDefault(i=>i.UserId==userId);
             }

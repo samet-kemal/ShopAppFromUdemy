@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ShopApp.DataAccess.Concrete.EfCore;
 
 namespace ShopApp.DataAccess.Migrations
 {
     [DbContext(typeof(ShopContext))]
-    partial class ShopContextModelSnapshot : ModelSnapshot
+    [Migration("20210506161851_AddingOrderEntities")]
+    partial class AddingOrderEntities
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -201,7 +203,7 @@ namespace ShopApp.DataAccess.Migrations
             modelBuilder.Entity("ShopApp.Entities.CartItem", b =>
                 {
                     b.HasOne("ShopApp.Entities.Cart", "Cart")
-                        .WithMany("CartItemss")
+                        .WithMany("CartItems")
                         .HasForeignKey("CartId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -257,7 +259,7 @@ namespace ShopApp.DataAccess.Migrations
 
             modelBuilder.Entity("ShopApp.Entities.Cart", b =>
                 {
-                    b.Navigation("CartItemss");
+                    b.Navigation("CartItems");
                 });
 
             modelBuilder.Entity("ShopApp.Entities.Category", b =>
