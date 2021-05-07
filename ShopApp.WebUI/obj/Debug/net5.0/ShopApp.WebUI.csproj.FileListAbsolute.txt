@@ -196,3 +196,4 @@ C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\ShopApp.WebU
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\ref\ShopApp.WebUI.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\ShopApp.WebUI.pdb
 C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\ShopApp.WebUI.genruntimeconfig.cache
+C:\Users\Casper\source\repos\ShopApp\ShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Cart\GetOrders.cshtml.g.cs
