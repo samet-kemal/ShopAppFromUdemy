@@ -10,6 +10,7 @@
     <PackageReference Include="Castle.Core" Version="4.4.1" />
     <PackageReference Include="FluentEmail.Razor" Version="3.0.0" />
     <PackageReference Include="FluentEmail.Smtp" Version="3.0.0" />
+    <PackageReference Include="IyzipayCore" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.5">
