@@ -12,3 +12,4 @@ C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\obj\Debug\net5.0\ShopApp.E
 C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\obj\Debug\net5.0\ref\ShopApp.Entities.dll
 C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\obj\Debug\net5.0\ShopApp.Entities.pdb
 C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\obj\Debug\net5.0\ShopApp.Entities.genruntimeconfig.cache
+C:\Users\Casper\source\repos\ShopApp\ShopApp.Entities\obj\Debug\net5.0\ShopApp.Entities.csprojAssemblyReference.cache

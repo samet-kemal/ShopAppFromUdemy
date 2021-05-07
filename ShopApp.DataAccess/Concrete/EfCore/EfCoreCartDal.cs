@@ -35,7 +35,7 @@ namespace ShopApp.DataAccess.Concrete.EfCore
         {
             using (var context = new ShopContext())
             {
-                var cmd = @"delete from CartItemss where CartId=@p0 And ProductId=@p1";
+                var cmd = @"delete from CartItem where CartId=@p0 And ProductId=@p1";
                 context.Database.ExecuteSqlRaw(cmd, cartId, productId);
             }
         }
